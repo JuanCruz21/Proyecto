@@ -1,5 +1,5 @@
 const express = require('express');
-const Usuarios = require('../models/usuario');
+const Usuarios = require('../Models/Usuarios');
 const UsuariosRouter = express.Router();
 
 //Listar Usuarios
