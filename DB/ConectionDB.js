@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-let conexion ='mongodb+srv://Admin:Admin123@cluster0.uxboe0m.mongodb.net/?retryWrites=true&w=majority' 
+let conexion ='url mongo' 
 
 mongoose.connect(conexion)
     .then(event=> console.log("conectado a mongo"))
